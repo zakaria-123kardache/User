@@ -1,0 +1,15 @@
+.card {
+    flex-direction: row;
+    max-width: 30em;
+    border: 0;
+    background-color: #696969;
+    color: #fff;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+  }
+  .card img {
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+  }
+ 
