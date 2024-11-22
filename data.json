@@ -26,101 +26,81 @@
             "fonction": "formateur",
             "dateNaissance": "19-01-1991"
     
-        },
-         {
-            "id":4,
-            "nom" : "Hanae",
-            "prenom": "",
-            "niveau":"",
-            "fonction": "Responsable de fabrique",
-            "dateNaissance": "19-01-1990"
+        }
+        
+      
+      
     
-        },
-         {
-            "id":5,
+    ], 
+    "Chef de Projet":[
+        {
+            "id":4,
             "nom" : "mourad",
             "prenom": "Jouhari",
             "niveau":"",
             "fonction": "Chef de Projet",
             "dateNaissance": "19-01-1995"
     
-        },
-         {
-            "id":6,
-            "nom" : "Abdhak ",
-            "prenom": "ghandour",
-            "niveau":"A1",
-            "fonction": "Aprenant",
-            "dateNaissance": "19-01-1996"
-    
-        },
-         {
-            "id":7,
-            "nom" : "Soulayman",
-            "prenom": "Jaafar",
-            "niveau":"A1",
-            "fonction": "Aprenant",
-            "dateNaissance": "19-01-2000"
-    
-        },
-         {
-            "id":8,
-            "nom" : "Wassim",
-            "prenom": "Ocuc",
-            "niveau":"A1",
-            "fonction": "Aprenant",
-            "dateNaissance": "19-01-2003"
-    
-        },
-         {
-            "id":9,
-            "nom" : "Ilyass",
-            "prenom": "ellafghj",
-            "niveau":"A1",
-            "fonction": "Aprenant",
-            "dateNaissance": "19-01-1995"
+        }
+
+    ],
+
+    "Responsable de fabrique":[
+        {
+            "id":5,
+            "nom" : "Hanae",
+            "prenom": "",
+            "niveau":"",
+            "fonction": "Responsable de fabrique",
+            "dateNaissance": "19-01-1990"
     
         }
-    
-    ], 
+        
+    ],
      
     "apprenant":[
+
         {
-            "id":1,
+            "id":6,
             "nom" : "Wassim",
             "prenom": "Ocuc",
             "niveau":"A1",
+            "fonction": "Aprenant",
             "dateNaissance": "19-01-2003"
         },
         {
-            "id":2,
+            "id":7,
             "nom" : "abderrahmane",
             "prenom": "lahmidi",
             "niveau":"A1",
+            "fonction": "Aprenant",
             "dateNaissance": "24-01-2000"
         },
         {
-            "id":3,
+            "id":8,
             "nom" : "ahmed",
             "prenom": "foulane",
             "niveau":"A1",
+            "fonction": "Aprenant",
             "dateNaissance": "10-01-2004"
         },
         {
-            "id":4,
+            "id":9,
             "nom" : "yassire",
             "prenom": "mahire",
             "niveau":"A1",
+            "fonction": "Aprenant",
             "dateNaissance": "16-01-1994"
         },
         {
-            "id":5,
+            "id":10,
             "nom" : "younnese",
             "prenom": "mahire",
             "niveau":"A1",
+            "fonction": "Aprenant",
             "dateNaissance": "16-01-1994"
         },{
-            "id":6,
+            "id":11,
             "nom" : "Abdhak ",
             "prenom": "ghandour",
             "niveau":"A1",
@@ -129,7 +109,7 @@
     
         },
         {
-            "id":7,
+            "id":12,
             "nom" : "Soulayman",
             "prenom": "Jaafar",
             "niveau":"A1",
@@ -138,7 +118,7 @@
     
         },
         {
-            "id":8,
+            "id":13,
             "nom" : "Wassim",
             "prenom": "Ocuc",
             "niveau":"A1",
@@ -147,7 +127,7 @@
     
         },
         {
-            "id":9,
+            "id":14,
             "nom" : "Ilyass",
             "prenom": "ellafghj",
             "niveau":"A1",
