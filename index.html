@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-md-8">
 
-        <div class="row">
+        <div class="row  mt-5">
         <!-- 1er Formateur -->
      <div class="col-md-5" style=" height: 500px; background-color: rgba(0,0,255,0.1);">
        <h2>Formateur</h2>
@@ -34,7 +34,7 @@
           <!-- end responsable de fabric -->
         </div>
 
-        <div class="row">
+        <div class="row  mt-5">
           <!--Apprenant-->
             <div class="col-md-5" style=" height: 500px; background-color: rgba(0,0,255,0.1);">
                 <h2>Apprenant</h2>
@@ -60,15 +60,72 @@
 
       </div>
       <!-- sroll People -->
-      <div class="col-md-4" >
-        
-        <div class="row" id="data"style="overflow-y: auto; height: 120vh;" >
+      <div class="col-md-4 mt-5" >
+          
+       <!--  -->
+        <!-- Button to Open the Modal -->
+         <!-- Button to Open the Modal -->
+<button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addPersonModal">
+  Add Person
+</button>
 
-         
-       
+<!-- Bootstrap Modal Structure -->
+<div class="modal fade" id="addPersonModal" tabindex="-1" aria-labelledby="addPersonModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addPersonModalLabel">Add New Person</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="personForm">
+          <div class="mb-3">
+            <label for="type" class="form-label">Type:</label>
+            <select id="type" class="form-select" required>
+              <option value="formateur">Formateur</option>
+              <option value="apprenant">Apprenant</option>
+              <option value="Chef de Projet">Chef de Projet</option>
+              <option value="Responsable de fabrique">Responsable de fabrique</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="imageUpload" class="form-label">Upload Image:</label>
+            <input type="file" id="imageUpload" class="form-control" accept="image/*">
+          </div>
+          <div class="mb-3">
+            <label for="nom" class="form-label">Name:</label>
+            <input type="text" id="nom" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="prenom" class="form-label">Surname:</label>
+            <input type="text" id="prenom" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="dateNaissance" class="form-label">Date of Birth:</label>
+            <input type="date" id="dateNaissance" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="niveau" class="form-label">Level:</label>
+            <input type="text" id="niveau" class="form-control" required>
+          </div>
+          <button type="button" class="btn btn-primary" onclick="addPerson()">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!--  -->
+        <div class="row" id="data"style="overflow-y: auto; height: 120vh;" >
 
         </div>
       </div>
+
+
+
+
       <!-- End Scroll People -->
     </div>
     
