@@ -36,13 +36,13 @@
     
     ], 
     
-    "Chef de Projet":[
+    "chef de projet":[
         {
             "id":4,
             "nom" : "mourad",
             "prenom": "Jouhari",
             "niveau":"",
-            "fonction": "Chef de Projet",
+            "fonction": "chef de projet",
             "dateNaissance": "19-01-1995",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     
@@ -50,13 +50,13 @@
 
     ],
 
-    "Responsable de fabrique":[
+    "responsable de fabric":[
         {
             "id":5,
             "nom" : "Hanae",
             "prenom": "",
             "niveau":"",
-            "fonction": "Responsable de fabrique",
+            "fonction": "responsable de fabric",
             "dateNaissance": "19-01-1990",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     
@@ -71,7 +71,7 @@
             "nom" : "Wassim",
             "prenom": "Ocuc",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "19-01-2003",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
         },
@@ -80,7 +80,7 @@
             "nom" : "abderrahmane",
             "prenom": "lahmidi",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "24-01-2000",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
         },
@@ -89,7 +89,7 @@
             "nom" : "ahmed",
             "prenom": "foulane",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "10-01-2004",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
         },
@@ -98,7 +98,7 @@
             "nom" : "yassire",
             "prenom": "mahire",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "16-01-1994",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
         },
@@ -107,7 +107,7 @@
             "nom" : "younnese",
             "prenom": "mahire",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "16-01-1994",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
         },{
@@ -115,7 +115,7 @@
             "nom" : "Abdhak ",
             "prenom": "ghandour",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "19-01-1996",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     
@@ -125,7 +125,7 @@
             "nom" : "Soulayman",
             "prenom": "Jaafar",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "19-01-2000",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     
@@ -135,7 +135,7 @@
             "nom" : "Wassim",
             "prenom": "Ocuc",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "19-01-2003",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     
@@ -145,7 +145,7 @@
             "nom" : "Ilyass",
             "prenom": "ellafghj",
             "niveau":"A1",
-            "fonction": "Aprenant",
+            "fonction": "Apprenant",
             "dateNaissance": "19-01-1995",
             "image":"https://bootdey.com/img/Content/avatar/avatar7.png"
     

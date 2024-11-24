@@ -1,15 +1,89 @@
-.card {
-    flex-direction: row;
-    max-width: 30em;
-    border: 0;
-    background-color: #696969;
-    color: #fff;
-    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+.card-user {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-user:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  /* position: relative; */
+  margin-bottom: 10px;
+}
+
+.user-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #4a90e2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.fonction-title {
+  font-size: 1.1em;
+  color: #4a90e2;
+  font-weight: 700;
+}
+
+.card-block .name-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #333;
+}
+
+.card-block .info-text {
+  font-size: 0.9em;
+  color: #555;
+  margin: 3px 0;
+}
+
+.card-block .info-text:last-child {
+  margin-bottom: 0;
+}
+
+.col-md-5 {
+  height: 500px;
+  overflow-y: auto;
+  background-color: red;
+}
+
+.card-user {
+  height: 300px; 
+  overflow: hidden; 
+  margin: 10px; 
+}
+
+.col-md-5, .col-md-8, .col-md-2 {
+  padding: 0 10px; 
+}
+
+
+
+
+  /* card */
+  .card {
+    
+    cursor: pointer;            
+    transition: background-color 0.3s;
+    border: none; 
   }
-  .card img {
-    max-width: 25%;
-    margin: auto;
-    padding: 0.5em;
-    border-radius: 0.7em;
+  
+  .card:hover {
+    background-color: rgba(233, 16, 189, 0.1); 
+  }
+  
+  .card p {
+    font-size: 50px;  
+    color: #007BFF;  
   }
  
