@@ -11,7 +11,7 @@
 <body>
     <div class="row">
         <div class="col-md-8">
-            <!-- Formateur, Responsable de Fabric, Apprenant, Chef de Projet columns -->
+           
             <div class="row mt-5">
                 <div class="col-md-5 box" id="formateur-box" style="background-color: red;">
                     <h2>Formateur</h2>
@@ -104,8 +104,63 @@
             </div>
 
             <div class="row" id="data" style="overflow-y: auto; height: 140vh;">
-                <!-- This will be populated by your JavaScript -->
+               
             </div>
+
+            <!-- Model for editing -->
+           
+            <div id="editPersonModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Edit Data</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="editPersonForm">
+                                <div class="mb-3">
+                                    <label class="form-label">Type :</label>
+                                    <select id="editType" class="form-control" required>
+                                        <option value="formateur">Formateur</option>
+                                        <option value="apprenant">Apprenant</option>
+                                        <option value="chef de projet">Chef de Projet</option>
+                                        <option value="responsable de fabric">Responsable de Fabrique</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" id="editNom" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Prenom :</label>
+                                    <input type="text" id="editPrenom" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Born :</label>
+                                    <input type="date" id="editDateNaissance" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Nivo</label>
+                                    <input type="text" id="editNiveau" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Image :</label>
+                                    <input type="file" id="editImageUpload" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                            <button type="button" class="btn btn-primary" onclick="saveEditedPerson(event)">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+
+            <!-- end modal -->
+
+           
         </div>
     </div>
 
